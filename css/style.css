@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --VeryDarkBlue:#070439;
+    --DesaturatedBlue: #585989;
+    --BrightBlue: #3065f8;
+    --ModerateCyan: #3c9f8f;
+    --LightGrayishBlue: #f6f6fe;
+    --LightGray: #bfbfbf;
+    --fontOpenSans:'Open Sans', sans-serif;
+    --fontRaleway:'Raleway', sans-serif;
+}
