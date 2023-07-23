@@ -114,7 +114,7 @@ img {
   gap: 16px;
 }
 
-.input-area input {
+.inputHeader {
   border: 1px solid var(--VeryDarkBlue);
   font-size: 0.875rem;
   font-family: var(--font-OpenSans);
@@ -128,6 +128,7 @@ img {
   color: #c2c2c2;
 }
 .btn {
+  display: block;
   background: var(--BrightBlue);
   filter: drop-shadow(2px 3px 6px rgba(0, 0, 0, 0.16));
   color: white;
@@ -261,16 +262,17 @@ img {
   font-weight: 400;
 }
 
-.input-access input {
+.inputAccess {
   padding: 15px 10px;
   display: block;
   outline: none;
-  border: 1px solid transparent;
-  font-family: var(--font-Raleway);
+  font-family: var(--font-OpenSans);
   font-size: 12px;
   width: 480px;
   margin-bottom: 1rem;
+  border: 1px solid transparent;
   border-radius: 6px;
+  font-size: 0.875rem;
 }
 
 .bg-footer {
@@ -285,6 +287,9 @@ img {
 }
 .bg-footer li a:hover {
   color: #6c9bff;
+}
+.mt-btn{
+  margin-top: 1rem;
 }
 
 .flex-footer {
@@ -366,6 +371,10 @@ img {
   .flex-cont {
     flex-direction: column-reverse;
     text-align: center;
+    align-items: center;
+  }
+  .coment-post{
+    margin-inline: auto;
   }
   .title,
   .title-access {
@@ -407,4 +416,16 @@ img {
  .icones-footer{
     justify-content: center;
  }
+}
+
+.error{
+  border: 1px solid #EF4877;
+}
+.erroText{
+  font-size: 0.875rem;
+  color: #EF4877;
+  font-family: var(--font-OpenSans);
+}
+.erroText.remove{
+  display: none;
 }
