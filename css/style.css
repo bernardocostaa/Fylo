@@ -169,7 +169,7 @@ img {
   background: var(--ModerateCyan);
 }
 .wave-section {
-  background: url("/images/bg-curve-desktop.svg");
+  background: url("../images/bg-curve-desktop.svg");
   height: 114px;
   background-size: cover;
 }
@@ -370,7 +370,7 @@ img {
     padding-bottom: 80px;
   }
   .wave-section {
-    background: url("/images/bg-curve-mobile.svg");
+    background: url("../images/bg-curve-mobile.svg");
     height: 53px;
   }
   .flex-access {
