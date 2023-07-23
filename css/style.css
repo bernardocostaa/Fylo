@@ -159,6 +159,18 @@ img {
   width: max-content;
   position: relative;
   margin-bottom: 45px;
+  transition: .3s;
+  cursor: pointer;
+}
+.text-green:hover{
+    color: #71DFCC;
+}
+.text-green:hover::after{
+    background: #71DFCC;
+}
+.text-green i {
+    font-size: 12px;
+    cursor: pointer;
 }
 .text-green::after {
   content: "";
