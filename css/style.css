@@ -61,6 +61,15 @@ img {
   margin-bottom: 38px;
 }
 
+.relative{
+  position: relative;
+}
+
+.absolute{
+  position: absolute;
+  top: 50px;
+}
+
 .nav-header {
   margin-top: 65px;
   display: flex;
@@ -356,6 +365,10 @@ img {
   .pb-main {
     padding-bottom: 90px;
   }
+  .absolute{
+    position: inherit;
+    top:0;
+  }
 }
 
 @media (max-width: 900px) {
@@ -416,6 +429,7 @@ img {
  .icones-footer{
     justify-content: center;
  }
+ 
 }
 
 .error{
@@ -429,3 +443,5 @@ img {
 .erroText.remove{
   display: none;
 }
+
+
