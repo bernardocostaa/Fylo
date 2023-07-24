@@ -65,7 +65,7 @@ img {
   position: relative;
 }
 
-.absolute{
+.absoluteItem{
   position: absolute;
   top: 50px;
 }
@@ -365,9 +365,13 @@ img {
   .pb-main {
     padding-bottom: 90px;
   }
-  .absolute{
+  .absoluteItem{
     position: inherit;
     top:0;
+    order: 1;
+  }
+  .order-2{
+    order: 2;
   }
 }
 
