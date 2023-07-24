@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="https://github.com/bernardocostaa/Huddle/blob/main/templete.jpg" width="100%">
+  <img alt="" src="https://github.com/bernardocostaa/Fylo/blob/main/templete.jpg" width="100%">
 </p>
 
 <p align="center">
