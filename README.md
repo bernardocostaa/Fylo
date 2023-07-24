@@ -29,7 +29,7 @@ Link do Projeto: [Fylo](https://bernardocostaa.github.io/Fylo/)
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Huddle/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/bernardocostaa/Fylo/blob/main/LICENSE) para mais detalhes.
 
 ---
 
